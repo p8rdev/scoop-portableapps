@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/go/FirefoxPortable",
+    "description": "Browser",
+    "version": "75.0",
+    "license": "",
+    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%2075.0/FirefoxPortable_75.0_English.paf.exe#/dl.7z",
+    "hash": "md5:54d623e4be5e7ffd4755c39342802c29",
+    "bin": "FirefoxPortable.exe",
+    "shortcuts": [
+        [
+            "FirefoxPortable.exe",
+            "FirefoxPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/go/FirefoxPortable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%20$version/FirefoxPortable_$version_English.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/go/FirefoxPortable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

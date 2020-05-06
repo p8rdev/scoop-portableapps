@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/graphics_pictures/lazpaint-portable",
+    "description": "Image editor",
+    "version": "7.1.2",
+    "license": "",
+    "url": "https://ayera.dl.sourceforge.net/project/portableapps/LazPaint%20Portable/LazPaintPortable_7.1.2.paf.exe#/dl.7z",
+    "hash": "md5:413049be4bb306bea59b5aa82ec4281f",
+    "bin": "LazPaintPortable.exe",
+    "shortcuts": [
+        [
+            "LazPaintPortable.exe",
+            "LazPaintPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/graphics_pictures/lazpaint-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://ayera.dl.sourceforge.net/project/portableapps/LazPaint%20Portable/LazPaintPortable_$version.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/graphics_pictures/lazpaint-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

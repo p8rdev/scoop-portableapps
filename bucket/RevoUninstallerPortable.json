@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/revo_uninstaller_portable",
+    "description": "Easy to use uninstaller",
+    "version": "2.1.1",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/RevoUninstallerPortable/RevoUninstallerPortable_2.1.1.paf.exe?20190321#/dl.7z",
+    "hash": "md5:99caa3ca43b99b2af6671d96a736c309",
+    "bin": "RevoUninstallerPortable.exe",
+    "shortcuts": [
+        [
+            "RevoUninstallerPortable.exe",
+            "RevoUninstallerPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/revo_uninstaller_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/RevoUninstallerPortable/RevoUninstallerPortable_$version.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/revo_uninstaller_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

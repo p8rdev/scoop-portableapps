@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/dtaskmanager_portable",
+    "description": "Advanced task manager",
+    "version": "1.56.50",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/DTaskManagerPortable/DTaskManagerPortable_1.56.50.paf.exe?20190321#/dl.7z",
+    "hash": "md5:fa3a8b548eedea53837c3d8dea0af9cc",
+    "bin": "DTaskManagerPortable.exe",
+    "shortcuts": [
+        [
+            "DTaskManagerPortable.exe",
+            "DTaskManagerPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/dtaskmanager_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/DTaskManagerPortable/DTaskManagerPortable_$version.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/dtaskmanager_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

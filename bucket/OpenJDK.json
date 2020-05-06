@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/OpenJDK",
+    "description": "Java development kit (JDK)",
+    "version": "12.0.2 Build 10",
+    "license": "",
+    "url": "https://downloads.sourceforge.net/portableapps/OpenJDK_12.0.2_Build_10.paf.exe#/dl.7z",
+    "hash": "md5:8478a0bf42997265c4a3bac831cf2984",
+    "bin": "OpenJDK.exe",
+    "shortcuts": [
+        [
+            "OpenJDK.exe",
+            "OpenJDK"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/OpenJDK",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/portableapps/OpenJDK_$underscoreVersion.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/OpenJDK",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

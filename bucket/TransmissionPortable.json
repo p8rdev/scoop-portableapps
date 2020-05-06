@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/internet/transmission-portable",
+    "description": "Fast, easy, free bittorrent client",
+    "version": "2.94",
+    "license": "",
+    "url": "https://gigenet.dl.sourceforge.net/project/portableapps/Transmission%20Portable/TransmissionPortable_2.94.paf.exe#/dl.7z",
+    "hash": "md5:8ef7586b00e1ca323ac762d1f33acf57",
+    "bin": "TransmissionPortable.exe",
+    "shortcuts": [
+        [
+            "TransmissionPortable.exe",
+            "TransmissionPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/internet/transmission-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://gigenet.dl.sourceforge.net/project/portableapps/Transmission%20Portable/TransmissionPortable_$version.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/internet/transmission-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

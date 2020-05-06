@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/games/powder-toy-portable",
+    "description": "Physics sandbox game",
+    "version": "94.1.343",
+    "license": "",
+    "url": "https://gigenet.dl.sourceforge.net/project/portableapps/Powder%20Toy%20Portable/PowderToyPortable_94.1.343_English.paf.exe#/dl.7z",
+    "hash": "md5:66d5213d0570f4801ad44ed0dc743f78",
+    "bin": "PowderToyPortable.exe",
+    "shortcuts": [
+        [
+            "PowderToyPortable.exe",
+            "PowderToyPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/games/powder-toy-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://gigenet.dl.sourceforge.net/project/portableapps/Powder%20Toy%20Portable/PowderToyPortable_$version_English.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/games/powder-toy-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

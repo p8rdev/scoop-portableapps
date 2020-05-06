@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/internet/utorrent_portable",
+    "description": "Bit torrent client",
+    "version": "3.5.5.45449",
+    "license": "",
+    "url": "https://svwh.dl.sourceforge.net/project/portableapps/uTorrent%20Portable/uTorrentPortable_3.5.5.45449_online.paf.exe#/dl.7z",
+    "hash": "md5:d420a24c4e9ef04f428b6c3743c6c8e9",
+    "bin": "uTorrentPortable.exe",
+    "shortcuts": [
+        [
+            "uTorrentPortable.exe",
+            "uTorrentPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/internet/utorrent_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://svwh.dl.sourceforge.net/project/portableapps/uTorrent%20Portable/uTorrentPortable_$version_online.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/internet/utorrent_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

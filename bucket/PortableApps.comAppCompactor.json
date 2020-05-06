@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/portableapps.com_appcompactor",
+    "description": "Portable app compressor",
+    "version": "3.4.1",
+    "license": "",
+    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/PortableApps.com%20AppCompactor/PortableApps.comAppCompactor_3.4.1_English.paf.exe#/dl.7z",
+    "hash": "md5:071b031d54271b6dc90c5613f7aac44e",
+    "bin": "PortableApps.comAppCompactor.exe",
+    "shortcuts": [
+        [
+            "PortableApps.comAppCompactor.exe",
+            "PortableApps.comAppCompactor"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/portableapps.com_appcompactor",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://versaweb.dl.sourceforge.net/project/portableapps/PortableApps.com%20AppCompactor/PortableApps.comAppCompactor_$version_English.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/portableapps.com_appcompactor",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

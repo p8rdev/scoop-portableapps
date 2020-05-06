@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/security/pwgen-portable",
+    "description": "Secure password generator",
+    "version": "2.9.0",
+    "license": "",
+    "url": "https://ayera.dl.sourceforge.net/project/portableapps/PWGen%20Portable/PWGenPortable_2.9.0.paf.exe#/dl.7z",
+    "hash": "md5:8b89274e3b73125e935d9900bbd68dd6",
+    "bin": "PWGenPortable.exe",
+    "shortcuts": [
+        [
+            "PWGenPortable.exe",
+            "PWGenPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/security/pwgen-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://ayera.dl.sourceforge.net/project/portableapps/PWGen%20Portable/PWGenPortable_$version.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/security/pwgen-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

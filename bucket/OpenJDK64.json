@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/OpenJDK64",
+    "description": "Java development kit (JDK)",
+    "version": "12.0.2 Build 10",
+    "license": "",
+    "url": "https://downloads.sourceforge.net/portableapps/OpenJDK64_12.0.2_Build_10.paf.exe#/dl.7z",
+    "hash": "md5:a0bddc72e53cbec18c7d1137b052c00b",
+    "bin": "OpenJDK64.exe",
+    "shortcuts": [
+        [
+            "OpenJDK64.exe",
+            "OpenJDK64"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/OpenJDK64",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/portableapps/OpenJDK64_$underscoreVersion.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/OpenJDK64",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/jdkPortable",
+    "description": "Portable Java Development Kit",
+    "version": "8 Update 241",
+    "license": "",
+    "url": "https://downloads.sourceforge.net/portableapps/jdkPortable_8_Update_241_online.paf.exe#/dl.7z",
+    "hash": "md5:3a226ffc9bcbcabe5107ad0945edeb85",
+    "bin": "JDK.exe",
+    "shortcuts": [
+        [
+            "JDK.exe",
+            "JDK"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/jdkPortable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/portableapps/jdkPortable_$underscoreVersion_online.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/jdkPortable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/office/foxit_reader_portable",
+    "description": "PDF Reader",
+    "version": "9.7.2.29539",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/FoxitReaderPortable/FoxitReaderPortable_9.7.2.29539.paf.exe?20190321#/dl.7z",
+    "hash": "md5:b8b94389a311b70fc0388bc6670448e6",
+    "bin": "FoxitReaderPortable.exe",
+    "shortcuts": [
+        [
+            "FoxitReaderPortable.exe",
+            "FoxitReaderPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/office/foxit_reader_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/FoxitReaderPortable/FoxitReaderPortable_$version.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/office/foxit_reader_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

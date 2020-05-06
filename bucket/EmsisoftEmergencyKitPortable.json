@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/security/emsisoft-emergency-kit-portable",
+    "description": "Virus, malware, and badware scanner and remover",
+    "version": "2020.4.0.10065",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/EmsisoftEmergencyKitPortable/EmsisoftEmergencyKitPortable_2020.4.0.10065.paf.exe?20190321#/dl.7z",
+    "hash": "md5:be1d192e22a820e6730d62f51d060ede",
+    "bin": "EmsisoftEmergencyKitPortable.exe",
+    "shortcuts": [
+        [
+            "EmsisoftEmergencyKitPortable.exe",
+            "EmsisoftEmergencyKitPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/security/emsisoft-emergency-kit-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/EmsisoftEmergencyKitPortable/EmsisoftEmergencyKitPortable_$version.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/security/emsisoft-emergency-kit-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

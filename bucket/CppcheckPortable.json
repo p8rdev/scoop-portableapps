@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/development/cppcheck-portable",
+    "description": "C/C++ analysis tool",
+    "version": "1.90",
+    "license": "",
+    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Cppcheck%20Portable/CppcheckPortable_1.90.paf.exe#/dl.7z",
+    "hash": "md5:614815e32cbbca4413afb4906d11163a",
+    "bin": "CppcheckPortable.exe",
+    "shortcuts": [
+        [
+            "CppcheckPortable.exe",
+            "CppcheckPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/development/cppcheck-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Cppcheck%20Portable/CppcheckPortable_$version.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/development/cppcheck-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/security/mcafee-stinger-portable",
+    "description": "Common virus and fake alert remover",
+    "version": "12.2.0.35",
+    "license": "",
+    "url": "https://svwh.dl.sourceforge.net/project/portableapps/McAfee%20Stinger%20Portable/McAfeeStingerPortable_12.2.0.35_English_online.paf.exe#/dl.7z",
+    "hash": "md5:efcc2659278e7cb8bb7512edfad8eafc",
+    "bin": "McAfeeStingerPortable.exe",
+    "shortcuts": [
+        [
+            "McAfeeStingerPortable.exe",
+            "McAfeeStingerPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/security/mcafee-stinger-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://svwh.dl.sourceforge.net/project/portableapps/McAfee%20Stinger%20Portable/McAfeeStingerPortable_$version_English_online.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/security/mcafee-stinger-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/internet/opera_portable",
+    "description": "Browser",
+    "version": "68.0.3618.63",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/OperaPortable/OperaPortable_68.0.3618.63.paf.exe?20190321#/dl.7z",
+    "hash": "md5:2d55704e2478f2a68231ec23bc1ecd60",
+    "bin": "OperaPortable.exe",
+    "shortcuts": [
+        [
+            "OperaPortable.exe",
+            "OperaPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/internet/opera_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/OperaPortable/OperaPortable_$version.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/internet/opera_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

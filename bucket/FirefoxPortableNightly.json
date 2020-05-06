@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/internet/firefox-portable-nightly",
+    "description": "Browser",
+    "version": "77.0 Alpha 1 Pre",
+    "license": "",
+    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20P.E.%20Test/Mozilla%20Firefox%2C%20Portable%20Edition%20Nightly%2077/FirefoxPortableNightly_77.0_Alpha_1_Pre_English_online.paf.exe#/dl.7z",
+    "hash": "md5:f45de795f93ca2de77b6caaf76d1f0de",
+    "bin": "FirefoxPortableNightly.exe",
+    "shortcuts": [
+        [
+            "FirefoxPortableNightly.exe",
+            "FirefoxPortableNightly"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/internet/firefox-portable-nightly",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20P.E.%20Test/Mozilla%20Firefox%2C%20Portable%20Edition%20Nightly%2077/FirefoxPortableNightly_$underscoreVersion_English_online.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/internet/firefox-portable-nightly",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

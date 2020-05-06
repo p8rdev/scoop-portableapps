@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/office/calibre-portable",
+    "description": "Ebook manager, viewer",
+    "version": "4.14.0",
+    "license": "",
+    "url": "https://ayera.dl.sourceforge.net/project/portableapps/calibre%20Portable/calibrePortable_4.14.0.paf.exe#/dl.7z",
+    "hash": "md5:897bfdc8fd7e7230a7392468702784e4",
+    "bin": "calibrePortable.exe",
+    "shortcuts": [
+        [
+            "calibrePortable.exe",
+            "calibrePortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/office/calibre-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://ayera.dl.sourceforge.net/project/portableapps/calibre%20Portable/calibrePortable_$version.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/office/calibre-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/free_upx_portable",
+    "description": "Advanced executable compressor",
+    "version": "3.0",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/FreeUPXPortable/FreeUPXPortable_3.0_English.paf.exe?20190321#/dl.7z",
+    "hash": "md5:62eb51e1dc9031fd95fbcbdf75c1c0a4",
+    "bin": "FreeUPXPortable.exe",
+    "shortcuts": [
+        [
+            "FreeUPXPortable.exe",
+            "FreeUPXPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/free_upx_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/FreeUPXPortable/FreeUPXPortable_$version_English.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/free_upx_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

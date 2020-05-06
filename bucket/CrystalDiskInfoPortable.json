@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/crystaldiskinfo_portable",
+    "description": "Disk health monitoring tool",
+    "version": "8.4.2",
+    "license": "",
+    "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/CrystalDiskInfo%20Portable/CrystalDiskInfoPortable_8.4.2.paf.exe#/dl.7z",
+    "hash": "md5:a09a50a15bd3c346bb072f5a8461097d",
+    "bin": "CrystalDiskInfoPortable.exe",
+    "shortcuts": [
+        [
+            "CrystalDiskInfoPortable.exe",
+            "CrystalDiskInfoPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/crystaldiskinfo_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/CrystalDiskInfo%20Portable/CrystalDiskInfoPortable_$version.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/crystaldiskinfo_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

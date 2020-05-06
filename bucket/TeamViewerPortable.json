@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/teamviewer_portable",
+    "description": "Remote PC sharing",
+    "version": "15.5.3",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/TeamViewerPortable/TeamViewerPortable_15.5.3.paf.exe?20190321#/dl.7z",
+    "hash": "md5:1f2e12dec3b0761f225a29d334302c6d",
+    "bin": "TeamViewerPortable.exe",
+    "shortcuts": [
+        [
+            "TeamViewerPortable.exe",
+            "TeamViewerPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/teamviewer_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/TeamViewerPortable/TeamViewerPortable_$version.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/teamviewer_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

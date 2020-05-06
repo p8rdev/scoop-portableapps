@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/internet/google_chrome_portable",
+    "description": "Browser",
+    "version": "81.0.4044.129",
+    "license": "",
+    "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable_81.0.4044.129_online.paf.exe#/dl.7z",
+    "hash": "md5:e57affdb762f2ad3ccfa38738019f522",
+    "bin": "GoogleChromePortable.exe",
+    "shortcuts": [
+        [
+            "GoogleChromePortable.exe",
+            "GoogleChromePortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/internet/google_chrome_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable_$version_online.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/internet/google_chrome_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/keepass-pro-portable",
+    "description": "Password manager",
+    "version": "2.44",
+    "license": "",
+    "url": "https://iweb.dl.sourceforge.net/project/portableapps/KeePass%20Pro%20Portable/KeePassProPortable_2.44.paf.exe#/dl.7z",
+    "hash": "md5:32f72edd2ad268d89018abd394739fef",
+    "bin": "KeePassProPortable.exe",
+    "shortcuts": [
+        [
+            "KeePassProPortable.exe",
+            "KeePassProPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/keepass-pro-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://iweb.dl.sourceforge.net/project/portableapps/KeePass%20Pro%20Portable/KeePassProPortable_$version.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/keepass-pro-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

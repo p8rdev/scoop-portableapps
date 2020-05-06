@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/accessibility/balabolka-portable",
+    "description": "Text-to-speech on demand",
+    "version": "2.15.0.740",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/BalabolkaPortable/BalabolkaPortable_2.15.0.740.paf.exe?20190321#/dl.7z",
+    "hash": "md5:56206213fd1bc22884b9fbefbfd2577b",
+    "bin": "BalabolkaPortable.exe",
+    "shortcuts": [
+        [
+            "BalabolkaPortable.exe",
+            "BalabolkaPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/accessibility/balabolka-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/BalabolkaPortable/BalabolkaPortable_$version.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/accessibility/balabolka-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

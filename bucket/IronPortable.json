@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/internet/iron_portable",
+    "description": "Browser",
+    "version": "80.0.4150.1",
+    "license": "",
+    "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/Iron%20Portable/IronPortable_80.0.4150.1.paf.exe#/dl.7z",
+    "hash": "md5:b21d14f932081f3de6dfb1ff0da21236",
+    "bin": "IronPortable.exe",
+    "shortcuts": [
+        [
+            "IronPortable.exe",
+            "IronPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/internet/iron_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/Iron%20Portable/IronPortable_$version.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/internet/iron_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

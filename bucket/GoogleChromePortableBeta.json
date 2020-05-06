@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/internet/google_chrome_portable",
+    "description": "Browser",
+    "version": "83.0.4103.34",
+    "license": "",
+    "url": "https://astuteinternet.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortableBeta_83.0.4103.34_online.paf.exe#/dl.7z",
+    "hash": "md5:b42a4c0634069725c40f35d141dbd981",
+    "bin": "GoogleChromePortableBeta.exe",
+    "shortcuts": [
+        [
+            "GoogleChromePortableBeta.exe",
+            "GoogleChromePortableBeta"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/internet/google_chrome_portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://astuteinternet.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortableBeta_$version_online.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/internet/google_chrome_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

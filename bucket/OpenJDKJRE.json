@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/utilities/OpenJDKJRE",
+    "description": "Java runtime environment (JRE)",
+    "version": "12.0.2 Build 10",
+    "license": "",
+    "url": "https://downloads.sourceforge.net/portableapps/OpenJDKJRE_12.0.2_Build_10.paf.exe#/dl.7z",
+    "hash": "md5:4aef5582a1ea56b15000ea7e65a20a36",
+    "bin": "OpenJDKJRE.exe",
+    "shortcuts": [
+        [
+            "OpenJDKJRE.exe",
+            "OpenJDKJRE"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/OpenJDKJRE",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/portableapps/OpenJDKJRE_$underscoreVersion.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/OpenJDKJRE",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

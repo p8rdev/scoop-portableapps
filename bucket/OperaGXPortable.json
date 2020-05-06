@@ -1,0 +1,28 @@
+{
+    "homepage": "https://portableapps.com/apps/internet/opera-gx-portable",
+    "description": "Gaming Browser",
+    "version": "67.0.3575.130",
+    "license": "",
+    "url": "https://download3.portableapps.com/portableapps/OperaGXPortable/OperaGXPortable_67.0.3575.130.paf.exe?20190321#/dl.7z",
+    "hash": "md5:1a16bfc015995cdd863ae646e1416b27",
+    "bin": "OperaGXPortable.exe",
+    "shortcuts": [
+        [
+            "OperaGXPortable.exe",
+            "OperaGXPortable"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/internet/opera-gx-portable",
+        "re": "Version \\s+([\\w\\.]* for Win"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/OperaGXPortable/OperaGXPortable_$version.paf.exe?20190321",
+        "hash": {
+            "url": "https://portableapps.com/apps/internet/opera-gx-portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}
