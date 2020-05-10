@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/OpenJDKJRE",
     "description": "Java runtime environment (JRE)",
-    "version": "12.0.2_Build_10",
+    "version": "14.0.1_Build_7",
     "license": "",
-    "url": "https://downloads.sourceforge.net/portableapps/OpenJDKJRE_12.0.2_Build_10.paf.exe#/dl.7z",
-    "hash": "md5:4aef5582a1ea56b15000ea7e65a20a36",
+    "url": "https://downloads.sourceforge.net/portableapps/OpenJDKJRE_14.0.1_Build_7.paf.exe#/dl.7z",
+    "hash": "md5:77fae6f47c554503e58f1ea9e3418eba",
     "bin": "OpenJDKJRE.exe",
     "shortcuts": [
         [

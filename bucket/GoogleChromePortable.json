@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/google_chrome_portable",
     "description": "Browser",
-    "version": "81.0.4044.129",
+    "version": "81.0.4044.138",
     "license": "",
-    "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable_81.0.4044.129_online.paf.exe",
-    "hash": "md5:e57affdb762f2ad3ccfa38738019f522",
+    "url": "https://gigenet.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable_81.0.4044.138_online.paf.exe",
+    "hash": "md5:32af7ee56017368ea4c8d94a8042e1ab",
     "bin": "GoogleChromePortable/GoogleChromePortable.exe",
     "shortcuts": [
         [

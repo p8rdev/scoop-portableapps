@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/office/calibre-portable",
     "description": "Ebook manager, viewer",
-    "version": "4.14.0",
+    "version": "4.15.0",
     "license": "",
-    "url": "https://ayera.dl.sourceforge.net/project/portableapps/calibre%20Portable/calibrePortable_4.14.0.paf.exe#/dl.7z",
-    "hash": "md5:897bfdc8fd7e7230a7392468702784e4",
+    "url": "https://iweb.dl.sourceforge.net/project/portableapps/calibre%20Portable/calibrePortable_4.15.0.paf.exe#/dl.7z",
+    "hash": "md5:41e7a6d497e68bf3f2f1c31a03d374e5",
     "bin": "calibrePortable.exe",
     "shortcuts": [
         [

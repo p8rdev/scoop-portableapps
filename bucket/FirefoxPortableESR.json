@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/firefox-portable-esr",
     "description": "Browser",
-    "version": "68.7.0",
+    "version": "68.8.0",
     "license": "",
-    "url": "https://iweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%20ESR%2C%20Portable%20Edition%2068.7.0/FirefoxPortableESR_68.7.0_English.paf.exe#/dl.7z",
-    "hash": "md5:6dfc0e9bc20228f5b23e9fbb9d41e6f7",
+    "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%20ESR%2C%20Portable%20Edition%2068.8.0/FirefoxPortableESR_68.8.0_English.paf.exe#/dl.7z",
+    "hash": "md5:5f0fbf333ac2745eab7d00346ba8aac9",
     "bin": "FirefoxPortableESR.exe",
     "shortcuts": [
         [

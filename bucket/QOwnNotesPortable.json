@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/office/qownnotes-portable",
     "description": "Markdown note taker",
-    "version": "20.5.0",
+    "version": "20.5.2",
     "license": "",
-    "url": "https://ayera.dl.sourceforge.net/project/portableapps/QOwnNotes%20Portable/QOwnNotesPortable_20.5.0.paf.exe#/dl.7z",
-    "hash": "md5:ac06b20bc6722a7aacc06509ef78df98",
+    "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/QOwnNotes%20Portable/QOwnNotesPortable_20.5.2.paf.exe#/dl.7z",
+    "hash": "md5:c7a8bc984cd1d28c2baac4a9c8d16e7c",
     "bin": "QOwnNotesPortable.exe",
     "shortcuts": [
         [

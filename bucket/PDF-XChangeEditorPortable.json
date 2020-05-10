@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/office/pdf-xchange-editor-portable",
     "description": "PDF editor and viewer",
-    "version": "8.0.337.0",
+    "version": "8.0.338.0",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/PDF-XChangeEditorPortable/PDF-XChangeEditorPortable_8.0.337.0.paf.exe?20190321#/dl.7z",
-    "hash": "md5:9a78c8a9d0ee6455d302a7d48991b861",
+    "url": "https://download3.portableapps.com/portableapps/PDF-XChangeEditorPortable/PDF-XChangeEditorPortable_8.0.338.0.paf.exe?20190321#/dl.7z",
+    "hash": "md5:1be1395c0bbf81c13920e82ee4399f53",
     "bin": "PDF-XChangeEditorPortable.exe",
     "shortcuts": [
         [

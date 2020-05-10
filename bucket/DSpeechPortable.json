@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/accessibility/dspeech-portable",
     "description": "Text-to-speech on demand",
-    "version": "1.73.198",
+    "version": "1.73.205",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/DSpeechPortable/DSpeechPortable_1.73.198.paf.exe?20190321#/dl.7z",
-    "hash": "md5:e002d1938a77a4d5b9fd8b20033921de",
+    "url": "https://download3.portableapps.com/portableapps/DSpeechPortable/DSpeechPortable_1.73.205.paf.exe?20190321#/dl.7z",
+    "hash": "md5:daa61e1517db6ca170ab1cfb3dd8e824",
     "bin": "DSpeechPortable.exe",
     "shortcuts": [
         [

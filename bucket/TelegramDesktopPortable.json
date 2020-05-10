@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/telegram-desktop-portable",
     "description": "secure instant messaging",
-    "version": "2.1.0",
+    "version": "2.1.2",
     "license": "",
-    "url": "https://ayera.dl.sourceforge.net/project/portableapps/Telegram%20Desktop%20Portable/TelegramDesktopPortable_2.1.0.paf.exe#/dl.7z",
-    "hash": "md5:cfccbccf540b4e2c0c9aa52bbe9d5a78",
+    "url": "https://svwh.dl.sourceforge.net/project/portableapps/Telegram%20Desktop%20Portable/TelegramDesktopPortable_2.1.2.paf.exe#/dl.7z",
+    "hash": "md5:f2263e07053d85508fc45686d32b958a",
     "bin": "TelegramDesktopPortable.exe",
     "shortcuts": [
         [

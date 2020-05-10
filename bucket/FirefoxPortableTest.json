@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/firefox_portable/test",
     "description": "Browser",
-    "version": "76.0_Beta_2",
+    "version": "77.0_Beta_1",
     "license": "",
-    "url": "https://iweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20P.E.%20Test/Mozilla%20Firefox%2C%20Portable%20Edition%2076.0%20Beta%202/FirefoxPortableTest_76.0_Beta_2_English.paf.exe#/dl.7z",
-    "hash": "md5:d73602c900719ee59c9aa3c569b146d2",
+    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20P.E.%20Test/Mozilla%20Firefox%2C%20Portable%20Edition%2077.0%20Beta%201/FirefoxPortableTest_77.0_Beta_1_English.paf.exe#/dl.7z",
+    "hash": "md5:a130ad9a9b300222e17af3425d3a5ed1",
     "bin": "FirefoxPortableTest.exe",
     "shortcuts": [
         [

@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/ccportable",
     "description": "Local PC Cleaner",
-    "version": "5.66",
+    "version": "5.66_Rev_2",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/ccPortable/ccPortable_5.66_online.paf.exe?20190321",
-    "hash": "md5:9280889b982117862ec73120c363e309",
+    "url": "https://download3.portableapps.com/portableapps/ccPortable/ccPortable_5.66_Rev_2_online.paf.exe?20190321",
+    "hash": "md5:73775b07460d794a8e9416fc5f0ac99e",
     "bin": "ccPortable/ccPortable.exe",
     "shortcuts": [
         [

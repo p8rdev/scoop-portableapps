@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/google_chrome_portable",
     "description": "Browser",
-    "version": "81.0.4044.129",
+    "version": "81.0.4044.138",
     "license": "",
-    "url": "https://managedway.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable64_81.0.4044.129_online.paf.exe",
-    "hash": "md5:e5bcafee13a86b6ed4fa7339997309d9",
+    "url": "https://download3.portableapps.com/portableapps/GoogleChromePortable/GoogleChromePortable_81.0.4044.138_online.paf.exe",
+    "hash": "md5:32af7ee56017368ea4c8d94a8042e1ab",
     "bin": "GoogleChromePortable64/GoogleChromePortable64.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "re": "Version \\s+([\\w\\.]* for Win"
     },
     "autoupdate": {
-        "url": "https://managedway.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable64_$version_online.paf.exe",
+        "url": "https://download3.portableapps.com/portableapps/GoogleChromePortable/GoogleChromePortable_$version_online.paf.exe",
         "hash": {
             "url": "https://portableapps.com/apps/internet/google_chrome_portable",
             "regex": "MD5 Hash: +[\\w]{32}"

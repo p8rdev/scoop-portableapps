@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/firefox-portable-nightly",
     "description": "Browser",
-    "version": "77.0_Alpha_1_Pre",
+    "version": "78.0_Alpha_1_Pre",
     "license": "",
-    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20P.E.%20Test/Mozilla%20Firefox%2C%20Portable%20Edition%20Nightly%2077/FirefoxPortableNightly_77.0_Alpha_1_Pre_English_online.paf.exe",
-    "hash": "md5:f45de795f93ca2de77b6caaf76d1f0de",
+    "url": "https://download3.portableapps.com/portableapps/FirefoxPortableNightly/FirefoxPortableNightly_78.0_Alpha_1_Pre_English_online.paf.exe",
+    "hash": "md5:4c8d43d2d728c4554465efd44ceb3429",
     "bin": "FirefoxPortableNightly/FirefoxPortableNightly.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "re": "Version \\s+([\\w\\.]* for Win"
     },
     "autoupdate": {
-        "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20P.E.%20Test/Mozilla%20Firefox%2C%20Portable%20Edition%20Nightly%2077/FirefoxPortableNightly_$underscoreVersion_English_online.paf.exe",
+        "url": "https://download3.portableapps.com/portableapps/FirefoxPortableNightly/FirefoxPortableNightly_$underscoreVersion_English_online.paf.exe",
         "hash": {
             "url": "https://portableapps.com/apps/internet/firefox-portable-nightly",
             "regex": "MD5 Hash: +[\\w]{32}"

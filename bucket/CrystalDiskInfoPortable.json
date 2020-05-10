@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/crystaldiskinfo_portable",
     "description": "Disk health monitoring tool",
-    "version": "8.4.2",
+    "version": "8.5.1",
     "license": "",
-    "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/CrystalDiskInfo%20Portable/CrystalDiskInfoPortable_8.4.2.paf.exe#/dl.7z",
-    "hash": "md5:a09a50a15bd3c346bb072f5a8461097d",
+    "url": "https://gigenet.dl.sourceforge.net/project/portableapps/CrystalDiskInfo%20Portable/CrystalDiskInfoPortable_8.5.1.paf.exe#/dl.7z",
+    "hash": "md5:f44321aaf8feec8e37efee17fb907d76",
     "bin": "CrystalDiskInfoPortable.exe",
     "shortcuts": [
         [

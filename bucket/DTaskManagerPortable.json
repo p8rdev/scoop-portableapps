@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/dtaskmanager_portable",
     "description": "Advanced task manager",
-    "version": "1.56.50",
+    "version": "1.56.52",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/DTaskManagerPortable/DTaskManagerPortable_1.56.50.paf.exe?20190321#/dl.7z",
-    "hash": "md5:fa3a8b548eedea53837c3d8dea0af9cc",
+    "url": "https://download3.portableapps.com/portableapps/DTaskManagerPortable/DTaskManagerPortable_1.56.52.paf.exe?20190321#/dl.7z",
+    "hash": "md5:0c3450f0b0ab33088c72801614e0a9f4",
     "bin": "DTaskManagerPortable.exe",
     "shortcuts": [
         [

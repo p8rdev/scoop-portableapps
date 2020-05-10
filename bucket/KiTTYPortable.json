@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/kitty-portable",
     "description": "Telnet and SSH client",
-    "version": "0.73.2.11",
+    "version": "0.73.2.12",
     "license": "",
-    "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/KiTTY%20Portable/KiTTYPortable_0.73.2.11_English.paf.exe#/dl.7z",
-    "hash": "md5:ff43903a7e98f1588a740867edd144b3",
+    "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/KiTTY%20Portable/KiTTYPortable_0.73.2.12_English.paf.exe#/dl.7z",
+    "hash": "md5:9d24442572299b247ca6ea51eb76eb92",
     "bin": "KiTTYPortable.exe",
     "shortcuts": [
         [

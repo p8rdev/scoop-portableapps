@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/security/pwgen-portable",
     "description": "Secure password generator",
-    "version": "2.9.0",
+    "version": "3.0.0",
     "license": "",
-    "url": "https://ayera.dl.sourceforge.net/project/portableapps/PWGen%20Portable/PWGenPortable_2.9.0.paf.exe#/dl.7z",
-    "hash": "md5:8b89274e3b73125e935d9900bbd68dd6",
+    "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/PWGen%20Portable/PWGenPortable_3.0.0.paf.exe#/dl.7z",
+    "hash": "md5:d5ca4d7777ea14a7ce3ece2345c8cc10",
     "bin": "PWGenPortable.exe",
     "shortcuts": [
         [
