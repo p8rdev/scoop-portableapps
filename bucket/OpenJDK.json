@@ -1,7 +1,7 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/OpenJDK",
     "description": "Java development kit (JDK)",
-    "version": "12.0.2 Build 10",
+    "version": "12.0.2_Build_10",
     "license": "",
     "url": "https://downloads.sourceforge.net/portableapps/OpenJDK_12.0.2_Build_10.paf.exe#/dl.7z",
     "hash": "md5:8478a0bf42997265c4a3bac831cf2984",
