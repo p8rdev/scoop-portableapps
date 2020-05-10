@@ -3,12 +3,12 @@
     "description": "Disk defragmenter",
     "version": "2.22.33",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/dfgPortable/dfgPortable_2.22.33_online.paf.exe?20190321#/dl.7z",
+    "url": "https://download3.portableapps.com/portableapps/dfgPortable/dfgPortable_2.22.33_online.paf.exe?20190321",
     "hash": "md5:49e1b53ee1dc28dd786f4801023d6c48",
-    "bin": "dfgPortable.exe",
+    "bin": "dfgPortable/dfgPortable.exe",
     "shortcuts": [
         [
-            "dfgPortable.exe",
+            "dfgPortable/dfgPortable.exe",
             "dfgPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

@@ -3,12 +3,12 @@
     "description": "Screen capture utility",
     "version": "5.3",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/fscPortable/fscPortable_5.3_English_online.paf.exe?20190321#/dl.7z",
+    "url": "https://download3.portableapps.com/portableapps/fscPortable/fscPortable_5.3_English_online.paf.exe?20190321",
     "hash": "md5:b1af7b032a6cd1e802d21ca85ba18e16",
-    "bin": "fscPortable.exe",
+    "bin": "fscPortable/fscPortable.exe",
     "shortcuts": [
         [
-            "fscPortable.exe",
+            "fscPortable/fscPortable.exe",
             "fscPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

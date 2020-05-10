@@ -3,12 +3,12 @@
     "description": "Physical memory usage analyzer",
     "version": "1.52",
     "license": "",
-    "url": "https://gigenet.dl.sourceforge.net/project/portableapps/RAMMap%20Portable/RAMMapPortable_1.52_English_online.paf.exe#/dl.7z",
+    "url": "https://gigenet.dl.sourceforge.net/project/portableapps/RAMMap%20Portable/RAMMapPortable_1.52_English_online.paf.exe",
     "hash": "md5:4e69f639bd08bebe3cc149e20173eb88",
-    "bin": "RAMMapPortable.exe",
+    "bin": "RAMMapPortable/RAMMapPortable.exe",
     "shortcuts": [
         [
-            "RAMMapPortable.exe",
+            "RAMMapPortable/RAMMapPortable.exe",
             "RAMMapPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

@@ -3,12 +3,12 @@
     "description": "Live screen zoom and annotation for presentations",
     "version": "4.52",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/ZoomItPortable/ZoomItPortable_4.52_English_online.paf.exe?20190321#/dl.7z",
+    "url": "https://download3.portableapps.com/portableapps/ZoomItPortable/ZoomItPortable_4.52_English_online.paf.exe?20190321",
     "hash": "md5:1a58743abc14e13c90f339d54580b3fa",
-    "bin": "ZoomItPortable.exe",
+    "bin": "ZoomItPortable/ZoomItPortable.exe",
     "shortcuts": [
         [
-            "ZoomItPortable.exe",
+            "ZoomItPortable/ZoomItPortable.exe",
             "ZoomItPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

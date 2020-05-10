@@ -3,12 +3,12 @@
     "description": "Instant messenger & phone",
     "version": "7.41.0.101",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/sPortable/sPortable_7.41.0.101_online.paf.exe?20190321#/dl.7z",
+    "url": "https://download3.portableapps.com/portableapps/sPortable/sPortable_7.41.0.101_online.paf.exe?20190321",
     "hash": "md5:b69ee783f016029895e0f08074338f07",
-    "bin": "sPortable.exe",
+    "bin": "sPortable/sPortable.exe",
     "shortcuts": [
         [
-            "sPortable.exe",
+            "sPortable/sPortable.exe",
             "sPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

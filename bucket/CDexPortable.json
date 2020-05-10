@@ -3,12 +3,12 @@
     "description": "CD audio extractor",
     "version": "2.23",
     "license": "",
-    "url": "https://svwh.dl.sourceforge.net/project/portableapps/CDEx%20Portable/CDexPortable_2.23_online.paf.exe#/dl.7z",
+    "url": "https://svwh.dl.sourceforge.net/project/portableapps/CDEx%20Portable/CDexPortable_2.23_online.paf.exe",
     "hash": "md5:a507153c8b3d421d1f8a3c3530484283",
-    "bin": "CDexPortable.exe",
+    "bin": "CDexPortable/CDexPortable.exe",
     "shortcuts": [
         [
-            "CDexPortable.exe",
+            "CDexPortable/CDexPortable.exe",
             "CDexPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

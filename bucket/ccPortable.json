@@ -3,12 +3,12 @@
     "description": "Local PC Cleaner",
     "version": "5.66",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/ccPortable/ccPortable_5.66_online.paf.exe?20190321#/dl.7z",
+    "url": "https://download3.portableapps.com/portableapps/ccPortable/ccPortable_5.66_online.paf.exe?20190321",
     "hash": "md5:9280889b982117862ec73120c363e309",
-    "bin": "ccPortable.exe",
+    "bin": "ccPortable/ccPortable.exe",
     "shortcuts": [
         [
-            "ccPortable.exe",
+            "ccPortable/ccPortable.exe",
             "ccPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

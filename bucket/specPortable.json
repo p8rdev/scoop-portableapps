@@ -3,12 +3,12 @@
     "description": "System information tool",
     "version": "1.32",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/specPortable/specPortable_1.32_online.paf.exe?20190321#/dl.7z",
+    "url": "https://download3.portableapps.com/portableapps/specPortable/specPortable_1.32_online.paf.exe?20190321",
     "hash": "md5:061bcaadfc7803fda2869b9191937bfd",
-    "bin": "specPortable.exe",
+    "bin": "specPortable/specPortable.exe",
     "shortcuts": [
         [
-            "specPortable.exe",
+            "specPortable/specPortable.exe",
             "specPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

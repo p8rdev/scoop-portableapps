@@ -3,12 +3,12 @@
     "description": "Real-time file, registry and process monitor",
     "version": "3.53",
     "license": "",
-    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Process%20Monitor%20Portable/ProcessMonitorPortable_3.53_online.paf.exe#/dl.7z",
+    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Process%20Monitor%20Portable/ProcessMonitorPortable_3.53_online.paf.exe",
     "hash": "md5:d2369220d6886dcd751323aaffe869ef",
-    "bin": "ProcessMonitorPortable.exe",
+    "bin": "ProcessMonitorPortable/ProcessMonitorPortable.exe",
     "shortcuts": [
         [
-            "ProcessMonitorPortable.exe",
+            "ProcessMonitorPortable/ProcessMonitorPortable.exe",
             "ProcessMonitorPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

@@ -3,12 +3,12 @@
     "description": "Browser",
     "version": "83.0.4103.34",
     "license": "",
-    "url": "https://astuteinternet.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortableBeta_83.0.4103.34_online.paf.exe#/dl.7z",
+    "url": "https://astuteinternet.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortableBeta_83.0.4103.34_online.paf.exe",
     "hash": "md5:b42a4c0634069725c40f35d141dbd981",
-    "bin": "GoogleChromePortableBeta.exe",
+    "bin": "GoogleChromePortableBeta/GoogleChromePortableBeta.exe",
     "shortcuts": [
         [
-            "GoogleChromePortableBeta.exe",
+            "GoogleChromePortableBeta/GoogleChromePortableBeta.exe",
             "GoogleChromePortableBeta"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

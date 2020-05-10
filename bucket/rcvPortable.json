@@ -3,12 +3,12 @@
     "description": "File recovery utility",
     "version": "1.53.1087",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/rcvPortable/rcvPortable_1.53.1087_online.paf.exe?20190321#/dl.7z",
+    "url": "https://download3.portableapps.com/portableapps/rcvPortable/rcvPortable_1.53.1087_online.paf.exe?20190321",
     "hash": "md5:faac7830c9535b30111975e98b11e7fd",
-    "bin": "rcvPortable.exe",
+    "bin": "rcvPortable/rcvPortable.exe",
     "shortcuts": [
         [
-            "rcvPortable.exe",
+            "rcvPortable/rcvPortable.exe",
             "rcvPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

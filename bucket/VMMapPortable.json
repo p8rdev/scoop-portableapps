@@ -3,12 +3,12 @@
     "description": "Process memory analyzer",
     "version": "3.26",
     "license": "",
-    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/VMMap%20Portable/VMMapPortable_3.26_English_online.paf.exe#/dl.7z",
+    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/VMMap%20Portable/VMMapPortable_3.26_English_online.paf.exe",
     "hash": "md5:36e2b56c2cee30a9dc85b749d6a9a8ff",
-    "bin": "VMMapPortable.exe",
+    "bin": "VMMapPortable/VMMapPortable.exe",
     "shortcuts": [
         [
-            "VMMapPortable.exe",
+            "VMMapPortable/VMMapPortable.exe",
             "VMMapPortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

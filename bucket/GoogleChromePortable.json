@@ -3,12 +3,12 @@
     "description": "Browser",
     "version": "81.0.4044.129",
     "license": "",
-    "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable_81.0.4044.129_online.paf.exe#/dl.7z",
+    "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable_81.0.4044.129_online.paf.exe",
     "hash": "md5:e57affdb762f2ad3ccfa38738019f522",
-    "bin": "GoogleChromePortable.exe",
+    "bin": "GoogleChromePortable/GoogleChromePortable.exe",
     "shortcuts": [
         [
-            "GoogleChromePortable.exe",
+            "GoogleChromePortable/GoogleChromePortable.exe",
             "GoogleChromePortable"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

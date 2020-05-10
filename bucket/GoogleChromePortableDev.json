@@ -3,12 +3,12 @@
     "description": "Browser",
     "version": "84.0.4128.3",
     "license": "",
-    "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortableDev_84.0.4128.3_online.paf.exe#/dl.7z",
+    "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortableDev_84.0.4128.3_online.paf.exe",
     "hash": "md5:72272e4746314f93ff9b0dadd46409fb",
-    "bin": "GoogleChromePortableDev.exe",
+    "bin": "GoogleChromePortableDev/GoogleChromePortableDev.exe",
     "shortcuts": [
         [
-            "GoogleChromePortableDev.exe",
+            "GoogleChromePortableDev/GoogleChromePortableDev.exe",
             "GoogleChromePortableDev"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }

@@ -3,12 +3,12 @@
     "description": "Browser",
     "version": "81.0.4044.129",
     "license": "",
-    "url": "https://managedway.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable64_81.0.4044.129_online.paf.exe#/dl.7z",
+    "url": "https://managedway.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortable64_81.0.4044.129_online.paf.exe",
     "hash": "md5:e5bcafee13a86b6ed4fa7339997309d9",
-    "bin": "GoogleChromePortable64.exe",
+    "bin": "GoogleChromePortable64/GoogleChromePortable64.exe",
     "shortcuts": [
         [
-            "GoogleChromePortable64.exe",
+            "GoogleChromePortable64/GoogleChromePortable64.exe",
             "GoogleChromePortable64"
         ]
     ],
@@ -24,5 +24,7 @@
             "regex": "MD5 Hash: +[\\w]{32}"
         }
     },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    "installer": {
+        
+    }
 }
