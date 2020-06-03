@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/games/armagetron_advanced_portable",
     "description": "3D lightcycle game",
-    "version": "0.2.8.3.4",
+    "version": "0.2.8.3.5",
     "license": "",
-    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Armagetron%20Advanced%20Portable/ArmagetronAdvancedPortable_0.2.8.3.4.paf.exe#/dl.7z",
-    "hash": "md5:d071861479e7f9b97424509989e04392",
+    "url": "https://managedway.dl.sourceforge.net/project/portableapps/Source/Armagetron%20Advanced/ArmagetronAdvancedPortable_0.2.8.3.5.paf.exe#/dl.7z",
+    "hash": "md5:058544025c8d80b9783b694070ef457b",
     "bin": "ArmagetronAdvancedPortable.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "re": "Version \\s+([\\w\\.]* for Win"
     },
     "autoupdate": {
-        "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Armagetron%20Advanced%20Portable/ArmagetronAdvancedPortable_$version.paf.exe",
+        "url": "https://managedway.dl.sourceforge.net/project/portableapps/Source/Armagetron%20Advanced/ArmagetronAdvancedPortable_$version.paf.exe",
         "hash": {
             "url": "https://portableapps.com/apps/games/armagetron_advanced_portable",
             "regex": "MD5 Hash: +[\\w]{32}"

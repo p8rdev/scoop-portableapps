@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/opera-gx-portable",
     "description": "Gaming Browser",
-    "version": "67.0.3575.130",
+    "version": "68.0.3618.129",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/OperaGXPortable/OperaGXPortable_67.0.3575.130.paf.exe?20190321#/dl.7z",
-    "hash": "md5:1a16bfc015995cdd863ae646e1416b27",
+    "url": "https://download3.portableapps.com/portableapps/OperaGXPortable/OperaGXPortable_68.0.3618.129.paf.exe?20190321#/dl.7z",
+    "hash": "md5:620660ff880ff073de6c53794b24c1e5",
     "bin": "OperaGXPortable.exe",
     "shortcuts": [
         [

@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/free_upx_portable",
     "description": "Advanced executable compressor",
-    "version": "3.0",
+    "version": "3.1",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/FreeUPXPortable/FreeUPXPortable_3.0_English.paf.exe?20190321#/dl.7z",
-    "hash": "md5:62eb51e1dc9031fd95fbcbdf75c1c0a4",
+    "url": "https://download3.portableapps.com/portableapps/FreeUPXPortable/FreeUPXPortable_3.1.paf.exe?20190321#/dl.7z",
+    "hash": "md5:6b5b81a1d514fe2ddc3b68759c470e5d",
     "bin": "FreeUPXPortable.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "re": "Version \\s+([\\w\\.]* for Win"
     },
     "autoupdate": {
-        "url": "https://download3.portableapps.com/portableapps/FreeUPXPortable/FreeUPXPortable_$version_English.paf.exe?20190321",
+        "url": "https://download3.portableapps.com/portableapps/FreeUPXPortable/FreeUPXPortable_$version.paf.exe?20190321",
         "hash": {
             "url": "https://portableapps.com/apps/utilities/free_upx_portable",
             "regex": "MD5 Hash: +[\\w]{32}"

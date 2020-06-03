@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/kitty-portable",
     "description": "Telnet and SSH client",
-    "version": "0.73.2.12",
+    "version": "0.73.2.16",
     "license": "",
-    "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/KiTTY%20Portable/KiTTYPortable_0.73.2.12_English.paf.exe#/dl.7z",
-    "hash": "md5:9d24442572299b247ca6ea51eb76eb92",
+    "url": "https://phoenixnap.dl.sourceforge.net/project/portableapps/KiTTY%20Portable/KiTTYPortable_0.73.2.16_English.paf.exe#/dl.7z",
+    "hash": "md5:f60fc1ecbb417589bb57ad288b39e4f0",
     "bin": "KiTTYPortable.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "re": "Version \\s+([\\w\\.]* for Win"
     },
     "autoupdate": {
-        "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/KiTTY%20Portable/KiTTYPortable_$version_English.paf.exe",
+        "url": "https://phoenixnap.dl.sourceforge.net/project/portableapps/KiTTY%20Portable/KiTTYPortable_$version_English.paf.exe",
         "hash": {
             "url": "https://portableapps.com/apps/internet/kitty-portable",
             "regex": "MD5 Hash: +[\\w]{32}"

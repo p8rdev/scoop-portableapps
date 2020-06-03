@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/revo_uninstaller_portable",
     "description": "Easy to use uninstaller",
-    "version": "2.1.1",
+    "version": "2.1.5",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/RevoUninstallerPortable/RevoUninstallerPortable_2.1.1.paf.exe?20190321#/dl.7z",
-    "hash": "md5:99caa3ca43b99b2af6671d96a736c309",
+    "url": "https://download3.portableapps.com/portableapps/RevoUninstallerPortable/RevoUninstallerPortable_2.1.5.paf.exe?20190321#/dl.7z",
+    "hash": "md5:4b597c41f78f5bba5d0592a928b7371b",
     "bin": "RevoUninstallerPortable.exe",
     "shortcuts": [
         [

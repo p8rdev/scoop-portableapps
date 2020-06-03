@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/accessibility/balabolka-portable",
     "description": "Text-to-speech on demand",
-    "version": "2.15.0.741",
+    "version": "2.15.0.744",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/BalabolkaPortable/BalabolkaPortable_2.15.0.741.paf.exe?20190321#/dl.7z",
-    "hash": "md5:6c12d021efb9067bd40816a6aae97e8d",
+    "url": "https://download3.portableapps.com/portableapps/BalabolkaPortable/BalabolkaPortable_2.15.0.744.paf.exe?20190321#/dl.7z",
+    "hash": "md5:ef13540ca0757c77452004d5b8aeb71c",
     "bin": "BalabolkaPortable.exe",
     "shortcuts": [
         [

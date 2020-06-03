@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/google_chrome_portable",
     "description": "Browser",
-    "version": "84.0.4136.7",
+    "version": "84.0.4147.21",
     "license": "",
-    "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortableDev_84.0.4136.7_online.paf.exe",
-    "hash": "md5:e31a0377265cee5d8ad19b63e64bdfa6",
+    "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/Google%20Chrome%20Portable/GoogleChromePortableDev_84.0.4147.21_online.paf.exe",
+    "hash": "md5:32b4f6e94ebe57e03ad2280e49a84b47",
     "bin": "GoogleChromePortableDev/GoogleChromePortableDev.exe",
     "shortcuts": [
         [

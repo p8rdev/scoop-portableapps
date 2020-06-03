@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/smart_defrag_portable",
     "description": "Disk defragmenter",
-    "version": "6.5.0",
+    "version": "6.5.5.98",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/SmartDefragPortable/SmartDefragPortable_6.5.0.paf.exe?20190321#/dl.7z",
-    "hash": "md5:f4d0d07e58f2de8dc092a7d57de56023",
+    "url": "https://download3.portableapps.com/portableapps/SmartDefragPortable/SmartDefragPortable_6.5.5.98.paf.exe?20190321#/dl.7z",
+    "hash": "md5:89fd6201576fd61cc9c13ef1ed2edf19",
     "bin": "SmartDefragPortable.exe",
     "shortcuts": [
         [

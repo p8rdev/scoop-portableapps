@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/office/foxit_reader_portable",
     "description": "PDF Reader",
-    "version": "9.7.2.29539",
+    "version": "10.0.0.35798",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/FoxitReaderPortable/FoxitReaderPortable_9.7.2.29539.paf.exe?20190321#/dl.7z",
-    "hash": "md5:b8b94389a311b70fc0388bc6670448e6",
+    "url": "https://download3.portableapps.com/portableapps/FoxitReaderPortable/FoxitReaderPortable_10.0.0.35798.paf.exe?20190321#/dl.7z",
+    "hash": "md5:963b9972758780b8234b8883ca11a66b",
     "bin": "FoxitReaderPortable.exe",
     "shortcuts": [
         [

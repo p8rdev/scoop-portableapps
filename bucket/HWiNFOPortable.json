@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/hwinfo-portable",
     "description": "Hardware and software system details",
-    "version": "6.24.4120",
+    "version": "6.26.4160",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/HWiNFOPortable/HWiNFOPortable_6.24.4120_English.paf.exe?20190321#/dl.7z",
-    "hash": "md5:ece61d3d22b3c62b64a583d48e9a7844",
+    "url": "https://download3.portableapps.com/portableapps/HWiNFOPortable/HWiNFOPortable_6.26.4160_English.paf.exe?20190321#/dl.7z",
+    "hash": "md5:ca4d804d63dd3c7781b0e06edf552ed4",
     "bin": "HWiNFOPortable.exe",
     "shortcuts": [
         [

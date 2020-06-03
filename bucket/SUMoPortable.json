@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/sumo-portable",
     "description": "Update local apps",
-    "version": "5.10.17.456",
+    "version": "5.10.18.457",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/SUMoPortable/SUMoPortable_5.10.17.456_English.paf.exe?20190321#/dl.7z",
-    "hash": "md5:1c0a9c0dd44e5582f41f857bed9b2d11",
+    "url": "https://download3.portableapps.com/portableapps/SUMoPortable/SUMoPortable_5.10.18.457_English.paf.exe?20190321#/dl.7z",
+    "hash": "md5:36bcee8fcf0ed1a73f3f0151910d6957",
     "bin": "SUMoPortable.exe",
     "shortcuts": [
         [

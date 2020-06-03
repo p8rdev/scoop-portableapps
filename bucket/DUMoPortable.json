@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/dumo-portable",
     "description": "Update local drivers",
-    "version": "2.22.1.104",
+    "version": "2.22.2.105",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/DUMoPortable/DUMoPortable_2.22.1.104.paf.exe?20190321#/dl.7z",
-    "hash": "md5:de12bae49defd1ecc82e35eba87b8423",
+    "url": "https://download3.portableapps.com/portableapps/DUMoPortable/DUMoPortable_2.22.2.105.paf.exe?20190321#/dl.7z",
+    "hash": "md5:67f0505340bad43dfe048c771742527c",
     "bin": "DUMoPortable.exe",
     "shortcuts": [
         [

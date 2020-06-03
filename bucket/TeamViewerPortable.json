@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/teamviewer_portable",
     "description": "Remote PC sharing",
-    "version": "15.5.3",
+    "version": "15.5.6",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/TeamViewerPortable/TeamViewerPortable_15.5.3.paf.exe?20190321#/dl.7z",
-    "hash": "md5:1f2e12dec3b0761f225a29d334302c6d",
+    "url": "https://download3.portableapps.com/portableapps/TeamViewerPortable/TeamViewerPortable_15.5.6.paf.exe?20190321#/dl.7z",
+    "hash": "md5:3f52ccf321ab8f097708cd01138e7cf3",
     "bin": "TeamViewerPortable.exe",
     "shortcuts": [
         [

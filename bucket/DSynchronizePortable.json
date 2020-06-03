@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/dsynchronize_portable",
     "description": "File synchronization",
-    "version": "2.46.27",
+    "version": "2.46.43",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/DSynchronizePortable/DSynchronizePortable_2.46.27.paf.exe?20190321#/dl.7z",
-    "hash": "md5:70ef2b2cba26a04bc64b24a69905a1c7",
+    "url": "https://download3.portableapps.com/portableapps/DSynchronizePortable/DSynchronizePortable_2.46.43.paf.exe?20190321#/dl.7z",
+    "hash": "md5:366c474fe8d1a1078ad1830979ba1195",
     "bin": "DSynchronizePortable.exe",
     "shortcuts": [
         [

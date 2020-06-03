@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/iron_portable",
     "description": "Browser",
-    "version": "80.0.4150.1",
+    "version": "81.0.4200.0",
     "license": "",
-    "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/Iron%20Portable/IronPortable_80.0.4150.1.paf.exe#/dl.7z",
-    "hash": "md5:b21d14f932081f3de6dfb1ff0da21236",
+    "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/Iron%20Portable/IronPortable_81.0.4200.0.paf.exe#/dl.7z",
+    "hash": "md5:aca65a99920ddc16360b63e4381da6a0",
     "bin": "IronPortable.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "re": "Version \\s+([\\w\\.]* for Win"
     },
     "autoupdate": {
-        "url": "https://cfhcable.dl.sourceforge.net/project/portableapps/Iron%20Portable/IronPortable_$version.paf.exe",
+        "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/Iron%20Portable/IronPortable_$version.paf.exe",
         "hash": {
             "url": "https://portableapps.com/apps/internet/iron_portable",
             "regex": "MD5 Hash: +[\\w]{32}"

@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/office/jarte-portable",
     "description": "Word processor",
-    "version": "6.2",
+    "version": "6.2_Rev_2",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/JartePortable/JartePortable_6.2_English.paf.exe?20190321#/dl.7z",
-    "hash": "md5:519503111d90d88ed0c0ded88012f5be",
+    "url": "https://download3.portableapps.com/portableapps/JartePortable/JartePortable_6.2_Rev_2_English.paf.exe?20190321#/dl.7z",
+    "hash": "md5:1116538f7399172d72f54d669151bd1d",
     "bin": "JartePortable.exe",
     "shortcuts": [
         [

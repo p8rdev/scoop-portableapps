@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/wise-program-uninstaller-portable",
     "description": "Local software uninstaller",
-    "version": "2.3.7",
+    "version": "2.3.8",
     "license": "",
-    "url": "https://download3.portableapps.com/portableapps/WiseProgramUninstallerPortable/WiseProgramUninstallerPortable_2.3.7.paf.exe?20190321#/dl.7z",
-    "hash": "md5:00f5f9e270a5bf11049a193fe9f7a944",
+    "url": "https://download3.portableapps.com/portableapps/WiseProgramUninstallerPortable/WiseProgramUninstallerPortable_2.3.8.paf.exe?20190321#/dl.7z",
+    "hash": "md5:1e693d4b655370f2879dd9bc5a91c9cc",
     "bin": "WiseProgramUninstallerPortable.exe",
     "shortcuts": [
         [

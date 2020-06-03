@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/go/FirefoxPortable",
     "description": "Browser",
-    "version": "76.0",
+    "version": "76.0.1",
     "license": "",
-    "url": "https://newcontinuum.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%2076.0/FirefoxPortable_76.0_English.paf.exe#/dl.7z",
-    "hash": "md5:42ed97adc163567c2c0e554604a43c08",
+    "url": "https://netactuate.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%2076.0.1/FirefoxPortable_76.0.1_English.paf.exe#/dl.7z",
+    "hash": "md5:be5fa2ae2be1c20c65772f190c45e06e",
     "bin": "FirefoxPortable.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "re": "Version \\s+([\\w\\.]* for Win"
     },
     "autoupdate": {
-        "url": "https://versaweb.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%20$version/FirefoxPortable_$version_English.paf.exe",
+        "url": "https://netactuate.dl.sourceforge.net/project/portableapps/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%20$version/FirefoxPortable_$version_English.paf.exe",
         "hash": {
             "url": "https://portableapps.com/go/FirefoxPortable",
             "regex": "MD5 Hash: +[\\w]{32}"

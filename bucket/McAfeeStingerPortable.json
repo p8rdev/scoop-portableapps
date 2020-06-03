@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/security/mcafee-stinger-portable",
     "description": "Common virus and fake alert remover",
-    "version": "12.2.0.35",
+    "version": "12.2.0.53",
     "license": "",
-    "url": "https://svwh.dl.sourceforge.net/project/portableapps/McAfee%20Stinger%20Portable/McAfeeStingerPortable_12.2.0.35_English_online.paf.exe",
-    "hash": "md5:efcc2659278e7cb8bb7512edfad8eafc",
+    "url": "https://svwh.dl.sourceforge.net/project/portableapps/McAfee%20Stinger%20Portable/McAfeeStingerPortable_12.2.0.53_English_online.paf.exe",
+    "hash": "md5:3ae7b26103a1f0b196918f2a36a4aa23",
     "bin": "McAfeeStingerPortable/McAfeeStingerPortable.exe",
     "shortcuts": [
         [

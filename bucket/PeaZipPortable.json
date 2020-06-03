@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/utilities/peazip_portable",
     "description": "File archiver, compressor",
-    "version": "7.2.1",
+    "version": "7.3.0",
     "license": "",
-    "url": "https://versaweb.dl.sourceforge.net/project/portableapps/PeaZip%20Portable/PeaZipPortable_7.2.1.paf.exe#/dl.7z",
-    "hash": "md5:a8290db2a122dbfee24d9c7f1269d8aa",
+    "url": "https://astuteinternet.dl.sourceforge.net/project/portableapps/PeaZip%20Portable/PeaZipPortable_7.3.0.paf.exe#/dl.7z",
+    "hash": "md5:67dd99fa2a2d6ad1a07016d5ee136b86",
     "bin": "PeaZipPortable.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "re": "Version \\s+([\\w\\.]* for Win"
     },
     "autoupdate": {
-        "url": "https://versaweb.dl.sourceforge.net/project/portableapps/PeaZip%20Portable/PeaZipPortable_$version.paf.exe",
+        "url": "https://astuteinternet.dl.sourceforge.net/project/portableapps/PeaZip%20Portable/PeaZipPortable_$version.paf.exe",
         "hash": {
             "url": "https://portableapps.com/apps/utilities/peazip_portable",
             "regex": "MD5 Hash: +[\\w]{32}"

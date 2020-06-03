@@ -1,10 +1,10 @@
 {
     "homepage": "https://portableapps.com/apps/internet/transmission-portable",
     "description": "Fast, easy, free bittorrent client",
-    "version": "2.94",
+    "version": "3.00",
     "license": "",
-    "url": "https://gigenet.dl.sourceforge.net/project/portableapps/Transmission%20Portable/TransmissionPortable_2.94.paf.exe#/dl.7z",
-    "hash": "md5:8ef7586b00e1ca323ac762d1f33acf57",
+    "url": "https://ayera.dl.sourceforge.net/project/portableapps/Transmission%20Portable/TransmissionPortable_3.00.paf.exe#/dl.7z",
+    "hash": "md5:f793b24d92c3c53bc6ae2dda83e9d970",
     "bin": "TransmissionPortable.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "re": "Version \\s+([\\w\\.]* for Win"
     },
     "autoupdate": {
-        "url": "https://gigenet.dl.sourceforge.net/project/portableapps/Transmission%20Portable/TransmissionPortable_$version.paf.exe",
+        "url": "https://ayera.dl.sourceforge.net/project/portableapps/Transmission%20Portable/TransmissionPortable_$version.paf.exe",
         "hash": {
             "url": "https://portableapps.com/apps/internet/transmission-portable",
             "regex": "MD5 Hash: +[\\w]{32}"
